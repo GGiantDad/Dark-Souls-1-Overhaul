@@ -73,8 +73,8 @@ const std::map<std::string, ModMode> String_To_ModModes =
 };
 const std::map<ModMode, uint32_t> ModModes_To_Speffect =
 {
-    {ModMode::Overhaul, 9701},
-    {ModMode::Legacy, 9700},
+    {ModMode::Overhaul, -1}, //9701
+    {ModMode::Legacy, -1}, //9700
     {ModMode::Compatability, -1},
     {ModMode::InvalidMode, -1},
 };
